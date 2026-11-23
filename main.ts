@@ -2,7 +2,7 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 
 const SENTENCE =
-  "Tell me the little app you've always wanted — the one that sorts your recipes or plans your weekends — and an AI agent will build a working version while you watch, and you only pay for the one you actually love.";
+  "Tell me the little app you've always wanted — the one that sorts your recipes or plans your weekends — and an AI agent will build a working version in minutes while you watch, and you only pay for the one you actually love.";
 
 // Validate: exactly one sentence, 1–240 characters, UTF-8, not only whitespace.
 if (SENTENCE.trim().length === 0) {
